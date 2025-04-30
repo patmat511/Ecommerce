@@ -1,0 +1,68 @@
+# Build artifacts
+*.bak
+*.cache
+*.dll
+*.exe
+*.iobj
+*.ilk
+*.ipch
+*.log
+*.meta
+*.msi
+*.msm
+*.msp
+*.ncb
+*.obj
+*.opendb
+*.pdb
+*.pch
+*.snk
+*.suo
+*.tlog
+*.tmp
+*.temp
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sdf
+*.sqlite
+*.sqlite3
+
+# Project-specific
+*.aps
+*.code-workspace
+*.csproj.user
+*.idb
+*.sln.docstates
+*.user
+*.userosscache
+
+# NuGet
+*.nupkg
+NuGet.Cache/
+NuGet.Config
+NuGet.Scratch/
+nuget.exe
+packages/
+
+# Output directories
+bin/
+obj/
+wwwroot/
+
+# Configuration files
+appsettings.Development.json
+appsettings.Production.json
+
+# IDE-specific
+.vs/
+.vscode/
+.vscode/*
+
+# Allow specific VSCode settings
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
